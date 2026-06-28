@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-header {
+#hero {
     background-color: #1F2937;
 }
 
@@ -11,8 +11,15 @@ header {
     color: #F9FAF8;
 }
 
-#nav a {
+
+#nav a , #hero-para {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
