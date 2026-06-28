@@ -1,9 +1,19 @@
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 
 #hero {
     background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 #logo {
@@ -15,11 +25,46 @@ body {
 #nav a , #hero-para {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+#nav a {
     text-decoration: none;
+    padding: 10px;
+}
+
+#hero-main {
+    display: flex;
+    margin: 0 200px;
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-text {
+    flex: 1;
+    margin-right: 70px;
+    
 }
 
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    min-width: 90px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+img {
+    height: 246px;
+    flex: 1;
 }
