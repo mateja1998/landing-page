@@ -122,3 +122,32 @@ blockquote {
     margin: 0;
     margin-right: 50px;
 }
+
+/* call to action section */
+
+#call {
+    background-color: #3882F6;
+    margin: 50px 260px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#call-text {
+    color: #E5E7EB;
+}
+
+#call-header {
+    font-size: 20px;
+}
+
+#call-header, #call-para{
+    margin: 0;
+}
+
+#call .sign-up-btn {
+    border: 2px solid #E5E7EB ;
+}
+
