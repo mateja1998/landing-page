@@ -10,7 +10,7 @@ body {
     background-color: #1F2937;
 }
 
-header {
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +22,10 @@ header {
     color: #F9FAF8;
 }
 
+#nav {
+    display: flex;
+    gap: 20px;
+}
 
 #nav a,
 #hero-para {
@@ -31,7 +35,6 @@ header {
 
 #nav a {
     text-decoration: none;
-    padding: 10px;
 }
 
 #hero-main {
@@ -115,7 +118,7 @@ blockquote {
     font-style: italic;
 }
 
-#quote p {
+figcaption {
     font-weight: bold;
     align-self: flex-end;
     font-size: 25px;
@@ -127,7 +130,7 @@ blockquote {
 
 #call {
     background-color: #3882F6;
-    margin: 50px 260px;
+    margin: 80px 260px;
     padding: 40px 0;
     display: flex;
     align-items: center;
@@ -150,4 +153,16 @@ blockquote {
 #call .sign-up-btn {
     border: 2px solid #E5E7EB ;
 }
+
+/* footer section */
+
+#footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
